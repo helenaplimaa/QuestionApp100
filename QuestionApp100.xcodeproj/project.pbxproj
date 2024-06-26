@@ -11,6 +11,12 @@
 		4624CEA02C29C3440042782C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624CE9F2C29C3440042782C /* ContentView.swift */; };
 		4624CEA22C29C3460042782C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4624CEA12C29C3460042782C /* Assets.xcassets */; };
 		4624CEA52C29C3460042782C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4624CEA42C29C3460042782C /* Preview Assets.xcassets */; };
+		4624CEAC2C2B0F0A0042782C /* StartQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624CEAB2C2B0F0A0042782C /* StartQuiz.swift */; };
+		4624CEAE2C2B21EB0042782C /* Secondquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624CEAD2C2B21EB0042782C /* Secondquiz.swift */; };
+		4624CEB02C2B234B0042782C /* Thirdquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624CEAF2C2B234B0042782C /* Thirdquiz.swift */; };
+		4624CEB22C2B23590042782C /* Fourthquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624CEB12C2B23590042782C /* Fourthquiz.swift */; };
+		4624CEB42C2B236F0042782C /* Completedquiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624CEB32C2B236E0042782C /* Completedquiz.swift */; };
+		4624CEB62C2B23820042782C /* Dogoptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624CEB52C2B23820042782C /* Dogoptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		4624CE9F2C29C3440042782C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4624CEA12C29C3460042782C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4624CEA42C29C3460042782C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4624CEAB2C2B0F0A0042782C /* StartQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartQuiz.swift; sourceTree = "<group>"; };
+		4624CEAD2C2B21EB0042782C /* Secondquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secondquiz.swift; sourceTree = "<group>"; };
+		4624CEAF2C2B234B0042782C /* Thirdquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirdquiz.swift; sourceTree = "<group>"; };
+		4624CEB12C2B23590042782C /* Fourthquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fourthquiz.swift; sourceTree = "<group>"; };
+		4624CEB32C2B236E0042782C /* Completedquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Completedquiz.swift; sourceTree = "<group>"; };
+		4624CEB52C2B23820042782C /* Dogoptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogoptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				4624CE9D2C29C3440042782C /* QuestionApp100App.swift */,
 				4624CE9F2C29C3440042782C /* ContentView.swift */,
+				4624CEAB2C2B0F0A0042782C /* StartQuiz.swift */,
+				4624CEAD2C2B21EB0042782C /* Secondquiz.swift */,
+				4624CEAF2C2B234B0042782C /* Thirdquiz.swift */,
+				4624CEB12C2B23590042782C /* Fourthquiz.swift */,
+				4624CEB32C2B236E0042782C /* Completedquiz.swift */,
+				4624CEB52C2B23820042782C /* Dogoptions.swift */,
 				4624CEA12C29C3460042782C /* Assets.xcassets */,
 				4624CEA32C29C3460042782C /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4624CEB42C2B236F0042782C /* Completedquiz.swift in Sources */,
+				4624CEB62C2B23820042782C /* Dogoptions.swift in Sources */,
+				4624CEAE2C2B21EB0042782C /* Secondquiz.swift in Sources */,
+				4624CEB02C2B234B0042782C /* Thirdquiz.swift in Sources */,
 				4624CEA02C29C3440042782C /* ContentView.swift in Sources */,
+				4624CEAC2C2B0F0A0042782C /* StartQuiz.swift in Sources */,
+				4624CEB22C2B23590042782C /* Fourthquiz.swift in Sources */,
 				4624CE9E2C29C3440042782C /* QuestionApp100App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
